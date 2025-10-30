@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buat Laporan — Shan Group E-Report</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="wrap header-inner">
+      <a href="index.html" class="brand">
+        <svg width="40" viewBox="0 0 24 24" fill="none"><rect width="24" height="24" rx="5" fill="#FF8C00"/></svg>
+        <span class="brand-name">Shan Group</span>
+      </a>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html" class="active">Beranda</a></li>
+          <li><a href="alur.html">Alur</a></li>
+          <li><a href="tracking.html">Tracking</a></li>
+          <li><a href="laporan.html" class="btn-cta">Buat Laporan</a></li>
+        </ul>
+        <button class="nav-toggle"><i class="bi bi-list"></i></button>
+      </nav>
+    </div>
+  </header>
+
+
+<section class="page-hero">
+  <h1>Buat Laporan</h1>
+  <p>Isi data laporan Anda dengan lengkap dan jelas.</p>
+</section>
+
+<div class="form-card">
+  <div class="form-group">
+    <label>Nama Pelapor</label>
+    <input type="text" placeholder="Nama lengkap">
+  </div>
+
+  <div class="form-group">
+    <label>Kontak (Email / WhatsApp)</label>
+    <input type="text" placeholder="emailkamu@gmail.com / 08xx">
+  </div>
+
+  <div class="form-group">
+    <label>Tipe Laporan</label>
+    <select>
+      <option>Pilih kategori...</option>
+      <option>Keamanan</option>
+      <option>Pelayanan</option>
+      <option>Fasilitas Publik</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label>Lokasi Kejadian</label>
+    <input type="text" placeholder="Lokasi">
+  </div>
+
+  <div class="form-group">
+    <label>Deskripsi Laporan</label>
+    <textarea placeholder="Jelaskan laporan Anda secara detail..."></textarea>
+  </div>
+
+  <div class="form-group">
+    <label>Upload Bukti (opsional)</label>
+    <input type="file">
+  </div>
+
+  <button class="btn-submit">Kirim Laporan</button>
+</div>
+
+</body>
+</html>
