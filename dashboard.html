@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Client Dashboard | Dr. Mahsan</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="header-utama">
+    <div class="container">
+      <a href="index.html" class="logo-text">
+        Dr. Mahsan <span class="nama">Psychology</span>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="consultasion.html">Book Session</a></li>
+          <li><a href="login.html">Logout</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="dashboard-hero">
+    <div class="container">
+      <h1>Client Dashboard</h1>
+      <p>Welcome back, Sarah M.</p>
+    </div>
+  </div>
+
+  <main class="container section">
+    <!-- Statistik seperti reportonline.netlify.app -->
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-number">5</div>
+        <div class="stat-label">Total Sessions</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">1</div>
+        <div class="stat-label">Status: Upcoming</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">3</div>
+        <div class="stat-label">Status: Completed</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">1</div>
+        <div class="stat-label">Status: Canceled</div>
+      </div>
+    </div>
+
+    <!-- Jadwal Sesi -->
+    <h2 class="section-title">Your Session Schedule</h2>
+    <div class="session-list">
+      <div class="session-item">
+        <div>
+          <strong>Individual Therapy</strong><br />
+          Nov 21, 2025 • 2:00 PM (ET) • <span class="status upcoming">Upcoming</span>
+        </div>
+      </div>
+      <div class="session-item">
+        <div>
+          <strong>Follow-up Session</strong><br />
+          Nov 14, 2025 • 2:00 PM (ET) • <span class="status completed">Completed</span>
+        </div>
+      </div>
+      <div class="session-item">
+        <div>
+          <strong>Intake Session</strong><br />
+          Nov 7, 2025 • 2:00 PM (ET) • <span class="status completed">Completed</span>
+        </div>
+      </div>
+    </div>
+
+    <a href="daftar.html" class="btn primary" style="margin-top: 30px;">Schedule New Session</a>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p><a href="index.html">← Back to Home</a></p>
+    </div>
+  </footer>
+
+  <!-- CHAT WIDGET -->
+<div class="chat-widget">
+  <div class="chat-icon" onclick="toggleChat()">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+      <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/>
+    </svg>
+  </div>
+</div>
+
+<div class="chat-panel" id="chatPanel">
+  <div class="chat-header">
+    <div class="logo">Dr. Mahsan</div>
+    <div class="avatar-group">
+      <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=32&h=32&q=80" alt="You" class="avatar">
+      <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=32&h=32&q=80" alt="Support" class="avatar">
+      <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=32&h=32&q=80" alt="Team" class="avatar">
+    </div>
+    <button class="close-btn" onclick="toggleChat()">×</button>
+  </div>
+
+    <div class="chat-body">
+    <div class="chat-greeting">
+      Hi 👋<br>
+      How can I help?
+    </div>
+    <div class="chat-option">
+      let's chat with us
+      <span class="arrow">→</span>
+    </div>
+  </div>
+</div>
+<script>
+  function toggleChat() {
+    const panel = document.getElementById('chatPanel');
+    panel.classList.toggle('active');
+  }
+</script>
+
+</body>
+</html>
