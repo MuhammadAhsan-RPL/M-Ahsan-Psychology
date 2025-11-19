@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Learn about Dr. M. Ahsan's therapeutic approach: compassionate, evidence-based, and culturally sensitive online therapy for anxiety, trauma, and depression.">
+  <title>My Therapeutic Approach | M. Ahsan Psychology</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header-utama">
+    <div class="container">
+      <a href="index.html" class="logo-text">
+         Ahsan <span class="nama">Psychology</span>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="consultasion.html">Book Session</a></li>
+          <li><a href="login.html">Dashboard</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero hero-consult">
+    <div class="container">
+      <h1>My Therapeutic Approach</h1>
+      <p>A blend of science, compassion, and cultural understanding</p>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <main class="container section">
+    <div class="approach-detail">
+      <p class="intro-text">
+        As a licensed clinical psychologist with over 10 years of experience, 
+        I believe healing happens in a space where you feel seen, heard, and respected—exactly as you are.
+      </p>
+
+      <!-- Core Principles -->
+      <div class="principles">
+        <div class="principle-card">
+          <h3>1. Compassionate Presence</h3>
+          <p>
+            Before any technique, there’s relationship. I offer a warm, non-judgmental presence 
+            where your story matters. No pressure. No assumptions. Just human-to-human connection.
+          </p>
+        </div>
+
+        <div class="principle-card">
+          <h3>2. Evidence-Based Methods</h3>
+          <p>
+            I integrate proven therapies tailored to your needs:
+          </p>
+          <ul class="therapy-list">
+            <li><strong>Cognitive Behavioral Therapy (CBT)</strong> – for anxiety, depression, and thought patterns</li>
+            <li><strong>EMDR</strong> – for trauma, PTSD, and emotional wounds</li>
+            <li><strong>Mindfulness & Acceptance</strong> – for stress, self-compassion, and emotional balance</li>
+          </ul>
+        </div>
+
+        <div class="principle-card">
+          <h3>3. Cultural & Linguistic Sensitivity</h3>
+          <p>
+            I work with diverse backgrounds and am fluent in both English and Indonesian. 
+            Your identity, values, and experiences shape our work together.
+          </p>
+        </div>
+
+        <div class="principle-card">
+          <h3>4. Privacy & Security</h3>
+          <p>
+            All sessions are conducted via a <strong>HIPAA-compliant</strong video platform. 
+            Your data is encrypted, never shared, and treated with the highest ethical standard.
+          </p>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div class="approach-cta">
+        <h3>Ready to Begin?</h3>
+        <p>I offer a free 15-minute consultation to see if we’re a good fit.</p>
+        <a href="consultasion.html" class="btn primary">Schedule Your Session</a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p><a href="index.html">← Back to Home</a></p>
+    </div>
+  </footer>
+
+  <!-- CHAT WIDGET -->
+  <div class="chat-widget">
+    <div class="chat-icon" onclick="toggleChat()">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/>
+      </svg>
+    </div>
+  </div>
+
+  <div class="chat-panel" id="chatPanel">
+    <div class="chat-header">
+      <div class="logo">Service Team</div>
+      <button class="close-btn" onclick="toggleChat()">×</button>
+    </div>
+    <div class="chat-body">
+      <div class="chat-greeting">Hai 👋<br>Questions about my approach?</div>
+      <div class="chat-option" onclick="window.open('https://wa.me/14155550199?text=Hello%20Dr.%20Ahsan,%20I%27d%20like%20to%20learn%20more%20about%20your%20therapy%20approach.', '_blank')">
+        Chat US on whatsapp <span class="arrow">→</span>
+      </div>
+    </div>
+    <div class="chat-footer">
+      <button class="home-btn" onclick="window.location.href='index.html'">Home</button>
+      <button class="message-btn" onclick="alert('For urgent support, please contact 988.')">Message</button>
+    </div>
+  </div>
+
+  <script>
+    function toggleChat() {
+      document.getElementById('chatPanel').classList.toggle('active');
+    }
+  </script>
+</body>
+</html>

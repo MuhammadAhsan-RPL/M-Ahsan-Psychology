@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Dr. Mahsan | Licensed Clinical Psychologist</title>
+  <meta name="description" content="Dr. M. Ahsan, Licensed Clinical Psychologist offering online therapy for anxiety, depression, trauma, and life transitions. Serving clients in California, New York, and across the U.S.">
+  <title>M. Ahsan Psychology | Licensed Online Therapy</title>
   <link rel="stylesheet" href="assets/css/style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
@@ -13,14 +14,14 @@
   <header class="header-utama">
     <div class="container">
       <a href="index.html" class="logo-text">
-        Dr. Mahsan <span class="nama">Psychology</span>
+        Ahsan <span class="nama">Psychology</span>
       </a>
       <nav>
         <ul>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="#hero">Home</a></li>
           <li><a href="#approach">Approach</a></li>
-          <li><a href="#team">Team</a></li>
-          <li><a href="#locations">Locations</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="team.html">Team</a></li>
           <li><a href="#faq">FAQ</a></li>
           <li><a href="consultasion.html" class="btn-nav">Book Session</a></li>
         </ul>
@@ -28,11 +29,11 @@
     </div>
   </header>
 
-  <!-- Hero -->
-  <section class="hero">
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
     <div class="container hero-content">
       <h1>You’re Not Alone.<br>Healing Begins With Understanding.</h1>
-      <p class="subtitle">Licensed Clinical Psychologist | Teletherapy for Your Loved Ones</p>
+      <p class="subtitle">Licensed Clinical Psychologist | Online Therapy for U.S. Clients</p>
       <div class="hero-cta">
         <a href="consultasion.html" class="btn primary">Book Your First Session</a>
         <a href="login.html" class="btn outline">Client Dashboard</a>
@@ -40,55 +41,62 @@
     </div>
   </section>
 
-  <!-- Pendekatan -->
+  <!-- Approach -->
   <section id="approach" class="section">
     <div class="container">
-      <h2 class="section-title">My Therapeutic Approach</h2>
+  <h2 class="section-title"> Therapeutic Approach</h2>
       <div class="approach-grid">
         <div class="approach-card">
           <h3>Compassionate Listening</h3>
-          <p>I create a non-judgmental space where your voice is truly heard.</p>
+          <p>I provide a safe, non-judgmental space where your experiences are honored and understood.</p>
         </div>
         <div class="approach-card">
           <h3>Evidence-Based Methods</h3>
-          <p>Using CBT, EMDR, and mindfulness—tailored to your unique needs.</p>
+          <p>Using CBT, EMDR, and mindfulness—customized to your goals and cultural background.</p>
         </div>
         <div class="approach-card">
-          <h3>Culturally Sensitive</h3>
-          <p>Experienced working with diverse U.S. clients and international backgrounds.</p>
+          <h3>Confidential & Secure</h3>
+          <p>All sessions conducted via HIPAA-compliant platform. Your privacy is my priority.</p>
         </div>
       </div>
+      <div class="hero-cta">
+        <a href="approach.html" class="btn primary">About Therapeutic Approach</a>
+        </div>
     </div>
   </section>
 
-  <!-- Tim Psikolog -->
-  <section id="team" class="section bg-light">
+  <!-- About Me -->
+  <section id="about" class="section bg-light">
     <div class="container">
-      <h2 class="section-title">Meet Your Psychologist</h2>
+      <h2 class="section-title">About Ahsan</h2>
       <div class="team-card">
-        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Dr. Mahsan" class="team-photo">
+        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&h=200&q=80" alt="Dr. M. Ahsan" class="team-photo">
         <div>
-          <h3>Dr. Mahsan, PhD</h3>
+          <h3>M. Ahsan, PhD</h3>
           <p><strong>Licensed Clinical Psychologist</strong><br>
-          CA License #PSY12345 | NY License #073456<br>
-          10+ years of clinical experience in anxiety, trauma, and life transitions.</p>
+          California License #PSY12345 | New York License #073456<br>
+          Over 10 years of clinical experience in anxiety, trauma, depression, and cross-cultural therapy.<br>
+          Fluent in English and Indonesian.</p>
+          <a href="consultasion.html" class="btn primary" style="margin-top: 16px;">Schedule a Session</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Lokasi -->
+  <!-- Locations & Licensing -->
   <section id="locations" class="section">
     <div class="container">
       <h2 class="section-title">Licensed to Serve You</h2>
       <div class="locations-grid">
         <div class="location-card">
           <h3>California</h3>
-          <p>Teletherapy available statewide.<br>Office (by appointment): San Francisco, CA</p>
+          <p>Teletherapy available statewide.<br>
+          <a href="https://www.google.com/maps/place/San+Francisco,+CA" target="_blank">San Francisco, CA</a></p>
         </div>
         <div class="location-card">
           <h3>New York</h3>
-          <p>Virtual sessions for all NY residents.<br>Partner clinic: Manhattan, NY</p>
+          <p>Virtual sessions for all NY residents.<br>
+          <a href="https://www.google.com/maps/place/Manhattan,+NY" target="_blank">Manhattan, NY</a></p>
         </div>
       </div>
     </div>
@@ -100,82 +108,74 @@
       <h2 class="section-title">Frequently Asked Questions</h2>
       <div class="faq-list">
         <div class="faq-item">
-          <h3 class="faq-question" onclick="toggleFAQ(this)">Is online therapy as effective as in-person?</h3>
-          <p class="faq-answer">Yes. Research shows teletherapy is equally effective for most concerns, especially when conducted via secure, HIPAA-compliant platforms.</p>
-        </div>
-        <div class="faq-item">
-          <h3 class="faq-question" onclick="toggleFAQ(this)">Are sessions confidential?</h3>
-          <p class="faq-answer">Absolutely. All communications are encrypted and fully compliant with U.S. HIPAA privacy regulations.</p>
+          <h3 class="faq-question" onclick="toggleFAQ(this)">Is online therapy right for me?</h3>
+          <p class="faq-answer">Online therapy is effective for most concerns—especially anxiety, depression, and life transitions. We’ll assess together in our first session.</p>
         </div>
         <div class="faq-item">
           <h3 class="faq-question" onclick="toggleFAQ(this)">Do you accept insurance?</h3>
-          <p class="faq-answer">I provide a superbill for out-of-network reimbursement. Many U.S. clients use PPO plans for partial coverage.</p>
+          <p class="faq-answer">I provide a superbill for out-of-network reimbursement. Many PPO plans offer partial coverage.</p>
+        </div>
+        <div class="faq-item">
+          <h3 class="faq-question" onclick="toggleFAQ(this)">How long are sessions?</h3>
+          <p class="faq-answer">Standard sessions are 50 minutes. Initial evaluations are 60 minutes to ensure a strong start.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- CTA Final -->
+  <!-- Final CTA -->
   <section class="cta-final">
     <div class="container">
-      <h2>Ready to Begin Your Journey?</h2>
-      <a href="consultasion.html" class="btn primary">Book Your First Session</a>
+      <h2>Ready to Begin Your Healing Journey?</h2>
+      <a href="consultasion.html" class="btn primary">Book Your First Session Today</a>
     </div>
   </section>
 
   <!-- Footer -->
   <footer class="footer">
     <div class="container">
-      <p>&copy; 2025 Dr. Mahsan Psychology Practice. All rights reserved.</p>
+      <p>&copy; 2025 M. Ahsan Psychology. All rights reserved.</p>
       <p><em>This site does not provide emergency services. If you're in crisis, please call or text <strong>988</strong> (U.S. Suicide & Crisis Lifeline).</em></p>
     </div>
   </footer>
 
-  <script>
-    function toggleFAQ(element) {
-      const answer = element.nextElementSibling;
-      const isOpen = answer.style.display === "block";
-      document.querySelectorAll('.faq-answer').forEach(el => el.style.display = 'none');
-      if (!isOpen) answer.style.display = 'block';
-      answer.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-    }
-  </script>
   <!-- CHAT WIDGET -->
-<div class="chat-widget">
-  <div class="chat-icon" onclick="toggleChat()">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-      <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/>
-    </svg>
-  </div>
-</div>
-
-<div class="chat-panel" id="chatPanel">
-  <div class="chat-header">
-    <div class="logo">Dr. Mahsan</div>
-    <div class="avatar-group">
-      <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=32&h=32&q=80" alt="You" class="avatar">
-      <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=32&h=32&q=80" alt="Support" class="avatar">
-      <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=32&h=32&q=80" alt="Team" class="avatar">
+  <div class="chat-widget">
+    <div class="chat-icon" onclick="toggleChat()">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/>
+      </svg>
     </div>
+  </div>
+
+ <div class="chat-panel" id="chatPanel">
+  <div class="chat-header">
+    <div class="logo">Service Team</div>
     <button class="close-btn" onclick="toggleChat()">×</button>
   </div>
-  
   <div class="chat-body">
-    <div class="chat-greeting">
-      Hi 👋<br>
-      How can I help?
+    <div class="chat-greeting">Hai 👋<br>Are you confused?</div>
+    <div class="chat-option" onclick="window.open('https://wa.me/14155550199?text=Hello%20Mr.%20Farris,%20I%20want%20Consultation.', '_blank')">
+      Chat US on WhatsApp <span class="arrow">→</span>
     </div>
-    <div class="chat-option">
-      let's chat with us
-      <span class="arrow">→</span>
-    </div>
+  </div>
+  <div class="chat-footer">
+    <button class="home-btn" onclick="window.location.href='index.html'">Home</button>
+    <button class="message-btn" onclick="alert('For urgent matters, please contact your local crisis line.')">Message</button>
   </div>
 </div>
 
 <script>
+  function toggleFAQ(element) {
+    const answer = element.nextElementSibling;
+    const isOpen = answer.style.display === "block";
+    document.querySelectorAll('.faq-answer').forEach(el => el.style.display = 'none');
+    if (!isOpen) answer.style.display = 'block';
+    answer.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
+
   function toggleChat() {
-    const panel = document.getElementById('chatPanel');
-    panel.classList.toggle('active');
+    document.getElementById('chatPanel').classList.toggle('active');
   }
 </script>
 </body>

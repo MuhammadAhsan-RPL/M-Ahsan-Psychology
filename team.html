@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Meet the professional team at M. Ahsan Psychology: licensed clinical psychologist and support staff dedicated to your mental health journey.">
+  <title>Our Team | M. Ahsan Psychology</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header-utama">
+    <div class="container">
+      <a href="index.html" class="logo-text">
+        M. Ahsan <span class="nama">Psychology</span>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="approach.html">Approach</a></li>
+
+          <li><a href="team.html">Team</a></li>
+          <li><a href="consultasion.html">Book Session</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero hero-consult">
+    <div class="container">
+      <h1>Meet Our Team</h1>
+      <p>Compassionate professionals dedicated to your well-being</p>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <main class="container section">
+    <!-- Lead Psychologist -->
+    <div class="team-section">
+      <h2 class="section-subtitle">Licensed Clinical Psychologist</h2>
+      <div class="team-grid">
+        <div class="team-member lead">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&h=200&q=80" alt="Dr. M. Ahsan" class="member-photo">
+          <div class="member-info">
+            <h3>M. Ahsan, PhD</h3>
+            <p class="role">Licensed Clinical Psychologist</p>
+            <p class="license">CA License #PSY12345 | NY License #073456</p>
+            <p>Over 10 years of experience in trauma, anxiety, depression, and cross-cultural therapy. Fluent in English and Indonesian.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Support Team -->
+    <div class="team-section" style="margin-top: 60px;">
+      <h2 class="section-subtitle">Support Team</h2>
+      <div class="team-grid">
+        <div class="team-member">
+          <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&h=200&q=80" alt="Sarah Mitchell" class="member-photo">
+          <div class="member-info">
+            <h3>Sarah Mitchell, RN</h3>
+            <p class="role">Mental Health Nurse</p>
+            <p>Provides initial assessments, session coordination, and wellness check-ins. Certified in crisis intervention.</p>
+          </div>
+        </div>
+
+        <div class="team-member">
+          <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&h=200&q=80" alt="James Carter" class="member-photo">
+          <div class="member-info">
+            <h3>James Carter</h3>
+            <p class="role">Client Care Coordinator</p>
+            <p>Handles scheduling, billing inquiries, and ensures a smooth onboarding experience for all clients.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="team-cta" style="text-align: center; margin-top: 50px;">
+      <h3>Ready to Begin Your Journey?</h3>
+      <a href="consultation.html" class="btn primary">Schedule a Session</a>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p><a href="index.html">← Back to Home</a></p>
+    </div>
+  </footer>
+
+  <!-- CHAT WIDGET -->
+  <div class="chat-widget">
+    <div class="chat-icon" onclick="toggleChat()">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/>
+      </svg>
+    </div>
+  </div>
+
+  <div class="chat-panel" id="chatPanel">
+    <div class="chat-header">
+      <div class="logo">M. Ahsan</div>
+      <button class="close-btn" onclick="toggleChat()">×</button>
+    </div>
+    <div class="chat-body">
+      <div class="chat-greeting">Hai 👋<br>Questions about our team?</div>
+      <div class="chat-option" onclick="window.open('https://wa.me/14155550199?text=Hello%20Mr.%20Farris,%20I%27d%20like%20to%20know%20more%20about%20your%20team.', '_blank')">
+        Contact via WhatsApp <span class="arrow">→</span>
+      </div>
+    </div>
+    <div class="chat-footer">
+      <button class="home-btn" onclick="window.location.href='index.html'">Home</button>
+      <button class="message-btn" onclick="alert('For urgent support, please contact 988.')">Message</button>
+    </div>
+  </div>
+
+  <script>
+    function toggleChat() {
+      document.getElementById('chatPanel').classList.toggle('active');
+    }
+  </script>
+</body>
+</html>

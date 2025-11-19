@@ -12,10 +12,11 @@
   <header class="header-utama">
     <div class="container">
       <a href="index.html" class="logo-text">
-        Dr. Mahsan <span class="nama">Psychology</span>
+         Ahsan <span class="nama">Psychology</span>
       </a>
       <nav>
         <ul>
+          <link><a href="index.html">Home</a>
           <li><a href="consultasion.html">Book Session</a></li>
           <li><a href="login.html">Logout</a></li>
         </ul>
@@ -83,7 +84,7 @@
     </div>
   </footer>
 
-  <!-- CHAT WIDGET -->
+ <!-- CHAT WIDGET -->
 <div class="chat-widget">
   <div class="chat-icon" onclick="toggleChat()">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -94,30 +95,32 @@
 
 <div class="chat-panel" id="chatPanel">
   <div class="chat-header">
-    <div class="logo">Dr. Mahsan</div>
-    <div class="avatar-group">
-      <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=32&h=32&q=80" alt="You" class="avatar">
-      <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=32&h=32&q=80" alt="Support" class="avatar">
-      <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=32&h=32&q=80" alt="Team" class="avatar">
-    </div>
+    <div class="logo">Service Team</div>
     <button class="close-btn" onclick="toggleChat()">×</button>
   </div>
-
-    <div class="chat-body">
-    <div class="chat-greeting">
-      Hi 👋<br>
-      How can I help?
-    </div>
-    <div class="chat-option">
-      let's chat with us
-      <span class="arrow">→</span>
+  <div class="chat-body">
+    <div class="chat-greeting">Hai 👋<br>Is there any problem on your dashboard?</div>
+    <div class="chat-option" onclick="window.open('https://wa.me/14155550199?text=Hello%20Mr.%20Farris,%20I%27d%20have%20to%20problem%20on%20my%20dashboard.', '_blank')">
+      Chat US on WhatsApp <span class="arrow">→</span>
     </div>
   </div>
+  <div class="chat-footer">
+    <button class="home-btn" onclick="window.location.href='index.html'">Home</button>
+    <button class="message-btn" onclick="alert('For urgent matters, please contact your local crisis line.')">Message</button>
+  </div>
 </div>
+
 <script>
+  function toggleFAQ(element) {
+    const answer = element.nextElementSibling;
+    const isOpen = answer.style.display === "block";
+    document.querySelectorAll('.faq-answer').forEach(el => el.style.display = 'none');
+    if (!isOpen) answer.style.display = 'block';
+    answer.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
+
   function toggleChat() {
-    const panel = document.getElementById('chatPanel');
-    panel.classList.toggle('active');
+    document.getElementById('chatPanel').classList.toggle('active');
   }
 </script>
 
