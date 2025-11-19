@@ -41,13 +41,15 @@
     </div>
   </section>
 
-  <footer class="footer">
-    <div class="container">
-      <p><a href="index.html">← Back to Home</a></p>
-    </div>
-  </footer>
-
+ <!-- FOOTER -->
+  <footer style="text-align:center;padding:30px 0;color:#64748b;font-size:0.9rem;border-top:1px solid #e2e8f0;margin-top:60px;background:#f8fafc;">
+  <div class="container" style="width:90%;max-width:1100px;margin:0 auto;">
+    <p>&copy; 2025 Ahsan Psychology. All rights reserved.</p>
+    <em>This site does not provide emergency services. If you're in crisis, call or text <strong>988</strong>.</em>
+  </div>
+</footer>
   <script>
+
     document.getElementById('loginForm').addEventListener('submit', function(e) {
       e.preventDefault();
       // Di production: kirim ke backend
@@ -55,6 +57,7 @@
       window.location.href = 'dashboard.html';
     });
   </script>
+
 <!-- CHAT WIDGET -->
 <div class="chat-widget">
   <div class="chat-icon" onclick="toggleChat()">
@@ -72,7 +75,7 @@
   <div class="chat-body">
     <div class="chat-greeting">Hai 👋<br>Are you confused?</div>
     <div class="chat-option" onclick="window.open('https://wa.me/14155550199?text=Hello%20Mr.%20Farris,%20I%20need%20Help%20you.', '_blank')">
-      Chat US on WhatsApp <span class="arrow">→</span>
+       Contact Me <span class="arrow">→</span>
     </div>
   </div>
   <div class="chat-footer">
