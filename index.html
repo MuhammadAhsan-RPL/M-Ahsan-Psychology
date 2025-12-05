@@ -10,24 +10,33 @@
 </head>
 <body>
 
-  <!-- Header -->
   <header class="header-utama">
-    <div class="container">
-      <a href="index.html" class="logo-text">
-        Ahsan <span class="nama">Psychology</span>
-      </a>
-      <nav>
-        <ul>
-          <li><a href="#hero">Home</a></li>
-          <li><a href="#approach">Approach</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="team.html">Team</a></li>
-          <li><a href="#faq">FAQ</a></li>
-          <li><a href="consultasion.html" class="btn-nav">Book Session</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+  <div class="container">
+    <a href="index.html" class="logo-text">
+      Ahsan <span class="nama">Psychology</span>
+    </a>
+
+    <!-- Hamburger toggle -->
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <!-- Menu -->
+    <nav class="nav-menu">
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#approach">Approach</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="consultasion.html" class="btn-nav">Book Session</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
   <!-- Hero Section -->
   <section id="hero" class="hero">
@@ -65,6 +74,8 @@
     </div>
   </section>
 
+  
+
   <!-- About Me -->
   <section id="about" class="section bg-light">
     <div class="container">
@@ -83,8 +94,40 @@
     </div>
   </section>
 
+<!-- Testimonials -->
+<section class="testimonials">
+  <div class="container">
+    <h2>What Clients Say</h2>
+    <p class="testimonial-subtitle">Don’t take our word for it—here’s what our clients say about working with us.</p>
+    <div class="testimonial-grid">
+      <div class="testimonial-card">
+        <p>"Dr. Ahsan helped me navigate my anxiety with compassion and clarity. I finally feel like myself again."</p>
+        <div class="client-info">
+          <strong>Dr. Elena Torres</strong>
+          <span>Founder, MindWell Teletherapy</span>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <p>"The sessions were safe, structured, and deeply healing. Highly recommend!"</p>
+        <div class="client-info">
+          <strong>James Rodriguez</strong>
+          <span>Product Lead, Finovate</span>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <p>"As an expat, finding culturally sensitive care was hard—until I met Dr. Ahsan."</p>
+        <div class="client-info">
+          <strong>Sarah Kim</strong>
+          <span>CTO, NovaHealth</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
   <!-- Locations & Licensing -->
-  <section id="locations" class="section">
+  <section id="locations" class="section bg-light">
     <div class="container">
       <h2 class="section-title">Licensed to Serve You</h2>
       <div class="locations-grid">
