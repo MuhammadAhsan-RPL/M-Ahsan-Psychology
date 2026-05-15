@@ -1,38 +1,72 @@
-# 🧠 M‑Ahsan Psychology Website
+# 🧠 M-Ahsan Psychology Website
 
-A professional multi‑page psychology services website showcasing mental health support, consultation information, team profiles, and client access features.
+Professional multi-page psychology services website with responsive and modern UI design.
 
-This project highlights my ability to build a structured and responsive frontend using fundamental web technologies.
+🌐 Live Demo  
+https://m-ahsan-psychology.vercel.app/
+
+📂 Repository  
+https://github.com/MuhammadAhsan-RPL/M-Ahsan-Psychology
+
+---
 
 ## ✨ Features
-- Clean and approachable user interface  
-- Multi‑page layout for different sections  
-- Mental health services & consultation information  
-- Client registration page  
-- Login and dashboard UI  
-- Responsive design for desktop and mobile  
 
-## 🔗 Live Links
-- **View Website**  
-  https://m‑ahsan‑psychology.vercel.app/
+- Multi-page website
+- Responsive design
+- Psychology consultation information
+- Login & dashboard UI
+- Client registration page
+- Clean and modern interface
 
-- **View Repository (GitHub)**  
-  https://github.com/MuhammadAhsan‑RPL/M‑Ahsan‑Psychology
+---
 
-## 🧑‍💻 Tech Stack
-- HTML  
-- CSS  
-- JavaScript  
-- Responsive Web Design  
+## 🛠️ Tech Stack
 
-## 🚀 Deployment Status
-✔️ Production — Deployed on **Vercel**
+### 🌐 Frontend
 
-## 📄 Pages Included
-- Home (`index.html`)  
-- Approach (`approach.html`)  
-- Consultation (`consultasion.html`)  
-- Registration (`daftar.html`)  
-- Dashboard (`dashboard.html`)  
-- Login (`login.html`)  
-- Team (`team.html`)
+<p>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+</p>
+
+### 🚀 Deployment
+
+<p>
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+</p>
+
+### 🧰 Tools
+
+<p>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
+</p>
+
+---
+
+## 📄 Pages
+
+- Home
+- Approach
+- Consultation
+- Registration
+- Dashboard
+- Login
+- Team
+
+---
+
+## 📌 Purpose
+
+- Practice responsive web design
+- Build multi-page website structure
+- Improve frontend development skills
+
+---
+
+## 👨‍💻 Developer
+
+Made with ❤️ by Muhammad Ahsan
